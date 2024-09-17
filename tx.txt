@@ -1,0 +1,25 @@
+Js -- Javascript -- scripting language 
+
+scriptting language --> scripting language is a subset of programming languages.
+
+Where javascript run?
+- Browser --> client side 
+
+
+History of javaScript :
+Javascript devloped by (breden eich) by netscap navigator in 1995.
+
+
+JavaScript engins:
+
+browser  engine        compnay
+firefox spider monkey   mozilla
+chrome  v8              google
+safari  nitro           apple
+edge   chakra          microsoft
+
+
+There are three ways to define javascript.
+1. external javascript [.js]
+2. internal javascript <script>
+3. inline javascript
