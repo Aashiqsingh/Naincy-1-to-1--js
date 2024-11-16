@@ -13,19 +13,30 @@
 
 // Palindrome number
 
-var num = 121;
-var flag = num;
-var rev = 0;
-while(num!=0){
-    let rem = num % 10;
-    rev = rev * 10 + rem;
-    num = Math.floor(num / 10);
-}
+// var num = 121;
+// var flag = num;
+// var rev = 0;
+// while(num!=0){
+//     let rem = num % 10;
+//     rev = rev * 10 + rem;
+//     num = Math.floor(num / 10);
+// }
 
-if(flag === rev){
-    console.log("It is palindrome number");
+// if(flag === rev){
+//     console.log("It is palindrome number");
     
-}
-else{
-    console.log("It is not palindrome number");
+// }
+// else{
+//     console.log("It is not palindrome number");
+// }
+
+
+let i=1;
+while(i<=50)
+{
+    if(i%2==0)
+    {
+        console.log(i);
+        
+    }
 }
