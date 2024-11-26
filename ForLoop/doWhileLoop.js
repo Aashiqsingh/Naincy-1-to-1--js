@@ -25,11 +25,24 @@
 //     i++;
 // }while(i <= 5);
 
-let num = 7;
+// let num = 7;
+
+// let i = 1;
+
+// do{
+//     console.log(num + "*" + i + "=" + num * i);
+//     i++;
+// }while(i <= 10);
+
+
+let fact = 1;
 
 let i = 1;
 
 do{
-    console.log(num + "*" + i + "=" + num * i);
+    fact *= i;
     i++;
-}while(i <= 10);
+}while(i <= 7)
+
+    console.log("Factorial number = ",fact);
+    
