@@ -9,5 +9,5 @@ function isPrime(num){
 
 }
 
-var x = isPrime(17)
+var x = isPrime(19)
 console.log(x === true ? "Prime number" : "Not prime number")
