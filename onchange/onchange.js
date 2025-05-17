@@ -23,3 +23,11 @@ const changeShape = ()=>{
     mydiv.style.borderRadius = shape.value
     
 }
+
+
+const changeImage = ()=>{
+    const image = document.getElementById("image")
+
+    mydiv.style.backgroundImage = "url(" + image.value + ")";
+    mydiv.style.backgroundSize = "cover"
+}
