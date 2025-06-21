@@ -29,3 +29,18 @@ function start(){
         start2()
     },1000)
 }
+
+function stop(){
+    clearInterval(x)
+}
+
+function reset(){
+    secs = 0;
+    mins = 0;
+    hours = 0;
+    hour.innerHTML = hours < 10 ? "0"+hours : hours;
+    min.innerHTML = mins < 10 ? "0"+mins : mins;
+    sec.innerHTML = secs < 10 ? "0"+secs : secs;
+
+    clearInterval(x)
+}
